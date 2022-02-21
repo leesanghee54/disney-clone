@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header{
+    margin: 0;
+    padding: 0;
+}
+
+.jpg{
+    padding-top: 20px;
+    padding-left: 70px;
+    float: left;
+    width: 230px;
+    height: 80px;
+}
+
+ul li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.header{
+    height: 100px;
+    background-color: black;
+}
+
+#menu {
+    margin-right: 20px;
+    float: right;
+    font:bold 13px "malgun gothic";
+    background: black;
+    color:white;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    float: left;
+    min-width: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+#menu > ul > li > ul {
+    top:40px;
+    display: none;
+    font-size: 13px;
+    background: transparent
+}
+
+#menu > ul > li:hover > ul {
+    display: block;
+}
+
+.on {
+    color: white;
+    text-decoration: underline;
+}
+
+.over {
+    color: #555;
+}
+
+.list > ul > li{
+    color:white;
+}
+
+#menu > ul > li > ul > li:hover {
+    color: gray;
+    transition: ease 0.5s;
+}
+
+#disney-plus{
+    background-color: #1860c9;
+    width: 140px;
+    padding-right: 20px ;
+    border-bottom: 30px solid #1860c9;
+    border-left: 17px solid black;
+    height: 0px;
+}
+
+.background > div {
+    width: 100%;
+    height: 505px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.background > div > img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.yeah {
+    font:bold 15px "malgun gothic";
+    color:white;
+    text-align: center;
+    width: 600px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yeah > li {
+	min-width: 60px;
+	}
+
+.yeah > li:hover {
+    color: gray;
+    }
+
+#footer {
+    height: 47px;
+    background-color: rgb(44, 44, 44);
+}
+
+.imgsm {
+    margin-left: 55px;
+    margin-top: 20px;
+}
+.copyright{
+    float: left;
+}
+#footer > ul {
+    margin-right: 40px;
+    float: right;
+    width: 600px;
+    height: 46px;
+}
+
+#footer > ul > li {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    float: right;
+    margin-top: 20px;
+    font-size: 11px;
+    background-color: rgb(44, 44, 44);
+    color:white;
+}    
